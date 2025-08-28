@@ -120,7 +120,7 @@ export default function Pagination({
         </Item>
 
         {/* Page numbers */}
-        {pageNumbers.map((pageNumber) => (
+        {/* {pageNumbers.map((pageNumber) => (
           <Item
             key={pageNumber}
             className={`mc-paginate-item ${
@@ -130,7 +130,7 @@ export default function Pagination({
           >
             {pageNumber}
           </Item>
-        ))}
+        ))} */}
 
         {/* Next page button */}
         <Item

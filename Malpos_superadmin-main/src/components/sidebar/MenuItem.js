@@ -118,9 +118,13 @@ export default function MenuItem({ item }) {
   };
 
   const handleClick = (href) => {
-    if (href === "/inventory_request" || href === "/viewDocuments" || href === "/pending-approvals" || href === "/inventory" ) {
+    if (href === "/inventory_request" || href === "/viewDocuments" || href === "/pending-approvals" || href === "/inventory" || href === "/user") {
       localStorage.removeItem("EditAPPDocId");
       localStorage.removeItem("EditDocId");
+      localStorage.removeItem("UpdateUserId");
+      localStorage.removeItem("UpdateUserBtn");
+      localStorage.removeItem("DuplicateDocId");
+
     }
   };
 

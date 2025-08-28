@@ -308,6 +308,7 @@ const fetchUserById = async (id) => {
                   : UpdateBtnText || "Create User"}
               </button> */}
               <button type="submit" className="premium-btn premium-create" disabled={loading}>
+                <FontAwesomeIcon icon={faCirclePlus} /> 
   {loading ? (
     isUpdate ? "Updating..." : "Creating..."
   ) : (
@@ -315,7 +316,7 @@ const fetchUserById = async (id) => {
       UpdateBtnText
     ) : (
       <>
-        <FontAwesomeIcon icon={faCirclePlus} /> Create User
+        Create User
       </>
     )
   )}

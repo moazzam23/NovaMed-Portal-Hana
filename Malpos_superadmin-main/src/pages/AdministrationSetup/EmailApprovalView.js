@@ -208,11 +208,11 @@ export default function EmailApprovalView() {
                             className="text-center"
                           >
                             <th>ID</th>
-                            <th>Email Template</th>
+                            <th>Email Template Group</th>
                             <th>To Emails</th>
                             <th>CC Emails</th>
                             <th>Email Subject</th>
-                            <th>Email Body</th>
+                            {/* <th>Email Body</th> */}
                             <th>Created At</th>
                             <th className="text-center">Status </th>
                           </tr>
@@ -287,7 +287,7 @@ export default function EmailApprovalView() {
                                   {item.SUBJECT}
                                 </td>
 
-                                <td
+                                {/* <td
                                   style={{
                                      textAlign:"left",
                                     maxWidth: "300px",
@@ -298,7 +298,7 @@ export default function EmailApprovalView() {
                                   title={item.BODY}
                                 >
                                   {item.BODY}
-                                </td>
+                                </td> */}
 
                                 <td>
                                   {new Date(

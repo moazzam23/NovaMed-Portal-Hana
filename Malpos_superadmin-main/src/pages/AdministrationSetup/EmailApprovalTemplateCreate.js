@@ -26,7 +26,7 @@ export default function EmailApprovalTemplateCreate() {
   const [actionType, setActionType] = useState("ACTIVE");
   const [creators, setCreators] = useState([]);
 
-  const documentTypes = [{ label: "Email Approval", value: "Email Approval" }];
+  const documentTypes = [{ label: "Customer Email Approval", value: " Customer Email Approval" }];
 
   const actionTypes = [{ label: "ACTIVE", value: "ACTIVE" }];
 

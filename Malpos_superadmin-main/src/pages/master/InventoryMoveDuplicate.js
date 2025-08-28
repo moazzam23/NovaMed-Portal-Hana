@@ -408,19 +408,19 @@ const isSelected = (item) => {
           
           // if (isEditMode) {
             // PUT to appropriate endpoint
-            const endpoint = `${BASE_URL}/documents/${documentId}?CompanyDB=${companyDB}`;
-    const res=  await axios.put(endpoint, {
-              payload,
-              docDate,
-            });
+    //         const endpoint = `${BASE_URL}/documents/${documentId}?CompanyDB=${companyDB}`;
+    // const res=  await axios.put(endpoint, {
+    //           payload,
+    //           docDate,
+    //         });
             // POST create
-            // const res=await axios.post(`${BASE_URL}/documents?CompanyDB=${companyDB}`, {
-            //   docTypeId,
-            //   docNumber,
-            //   docDate,
-            //   payload,
-            //   User_ID,
-            // });
+            const res=await axios.post(`${BASE_URL}/documents?CompanyDB=${companyDB}`, {
+              docTypeId,
+              docNumber,
+              docDate,
+              payload,
+              User_ID,
+            });
             toast.success("Document Updated Successfully" + res?.data?.message);
 const docId=res?.data?.docId
 
