@@ -1,0 +1,37 @@
+{"clients":{
+    "title": "Internal Tasks",
+    "dotsMenu": {
+        "dots": "more_horiz",
+        "dropdown": [
+            { "icon": "edit", "text": "edit" },
+            { "icon": "delete", "text": "delete" },
+            { "icon": "download", "text": "download" }
+        ]
+    },
+    "table": {
+        "thead": ["Task ID" ,"Task Type", "From", "Assigned to","Status", "Action"],
+        "tbody": [
+            {
+                "id": "#4980",
+                "src": "images/avatar/01.webp",
+                "request": {"text": "Demo", "variant": "blue" }, 
+                "email": "miron@gmail.com", 
+                "amount": "$5500",
+                "assigned": {"name":"tahmina bonny", "src": "images/avatar/02.webp"},
+                "status": { "text": "pending", "variant": "red" },
+                "action": { "chat": "chat", "view": "visibility" }
+            },
+            {
+                "id": "#3230",
+                "src": "images/avatar/01.webp",
+                "request": {"text": "Support", "variant": "red" }, 
+                "email": "miron@gmail.com", 
+                "amount": "$5500",
+                "assigned": {"name":"tahmina bonny", "src": "images/avatar/02.webp"},
+                "status": { "text": "pending", "variant": "red" },
+                "action": { "chat": "chat", "view": "visibility" }
+            }
+           
+        ]
+    }
+}}

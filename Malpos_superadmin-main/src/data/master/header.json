@@ -1,0 +1,325 @@
+{
+  "logo": {
+    "path": "/analytics",
+    "src": "images/C_LOGO-1.png",
+    "alt": "blue",
+    "name": "Malpos"
+  },
+  "toggle": {
+    "open": "menu_open",
+    "close": "menu"
+  },
+  "search": {
+    "icon": "search",
+    "placeholder": "Quick finding..."
+  },
+  "theme": {
+    "icon": { "light": "light_mode", "dark": "dark_mode" },
+    "title": "Theme Mode",
+    "addClass": "theme"
+  },
+  "language": {
+    "icon": "language",
+    "title": "Languages",
+    "addClass": "language",
+    "dropdown": [
+      { "flag": "images/flag/usa.webp", "name": "english", "check": "active" },
+      { "flag": "images/flag/saudi.webp", "name": "arabic" },
+      { "flag": "images/flag/germany.webp", "name": "germany" },
+      { "flag": "images/flag/sa.webp", "name": "african" }
+    ]
+  },
+
+  "message": {
+    "icon": "email",
+    "title": "Message",
+    "addClass": "message",
+    "badge": { "text": "03", "variant": "primary" },
+    "dropdown": {
+      "title": "Messages",
+      "dotsMenu": {
+        "dots": "settings",
+        "dropdown": [
+          { "icon": "drafts", "text": "mark all as read" },
+          { "icon": "markunread", "text": "mark all as unread" },
+          { "icon": "delete", "text": "delete all message" }
+        ]
+      },
+      "button": {
+        "path": "/message",
+        "label": "view all message"
+      },
+      "items": [
+        {
+          "user": { "image": "images/avatar/01.webp", "status": "online" },
+          "chat": "Lorem Ipsum has been the industry's standard dummy text ever",
+          "name": "Shahid Raza",
+          "addClass": "active",
+          "shortMoment": "now",
+          "badge": "03",
+          "more": {
+            "icon": "more_vert",
+            "menu": [
+              { "icon": "account_circle", "text": "view profile" },
+              { "icon": "mark_chat_read", "text": "mark as unread" },
+              { "icon": "delete", "text": "delete message" },
+              { "icon": "remove_circle", "text": "block message" }
+            ]
+          }
+        },
+        {
+          "user": { "image": "images/avatar/02.webp" },
+          "chat": "Lorem Ipsum has been the industry's standard dummy text ever",
+          "name": "tahmina bonny",
+          "addClass": "active",
+          "shortMoment": "24s",
+          "badge": "01",
+          "more": {
+            "icon": "more_vert",
+            "menu": [
+              { "icon": "account_circle", "text": "view profile" },
+              { "icon": "mark_chat_read", "text": "mark as unread" },
+              { "icon": "delete", "text": "delete message" },
+              { "icon": "remove_circle", "text": "block message" }
+            ]
+          }
+        },
+        {
+          "user": { "image": "images/avatar/03.webp", "status": "online" },
+          "chat": "Lorem Ipsum has been the industry's standard dummy text ever",
+          "name": "labonno khan",
+          "addClass": "active",
+          "shortMoment": "18m",
+          "badge": "9+",
+          "more": {
+            "icon": "more_vert",
+            "menu": [
+              { "icon": "account_circle", "text": "view profile" },
+              { "icon": "mark_chat_read", "text": "mark as unread" },
+              { "icon": "delete", "text": "delete message" },
+              { "icon": "remove_circle", "text": "block message" }
+            ]
+          }
+        },
+        {
+          "user": { "image": "images/avatar/04.webp" },
+          "chat": "Lorem Ipsum has been the industry's standard dummy text ever",
+          "name": "shipu shikdar",
+          "shortMoment": "23h",
+          "more": {
+            "icon": "more_vert",
+            "menu": [
+              { "icon": "account_circle", "text": "view profile" },
+              { "icon": "mark_chat_read", "text": "mark as unread" },
+              { "icon": "delete", "text": "delete message" },
+              { "icon": "remove_circle", "text": "block message" }
+            ]
+          }
+        },
+        {
+          "user": { "image": "images/avatar/05.webp", "status": "online" },
+          "chat": "Lorem Ipsum has been the industry's standard dummy text ever",
+          "name": "rabeya akter",
+          "shortMoment": "13d",
+          "more": {
+            "icon": "more_vert",
+            "menu": [
+              { "icon": "account_circle", "text": "view profile" },
+              { "icon": "mark_chat_read", "text": "mark as unread" },
+              { "icon": "delete", "text": "delete message" },
+              { "icon": "remove_circle", "text": "block message" }
+            ]
+          }
+        },
+        {
+          "user": { "image": "images/avatar/06.webp" },
+          "chat": "Lorem Ipsum has been the industry's standard dummy text ever",
+          "name": "md nasrullah",
+          "shortMoment": "15w",
+          "more": {
+            "icon": "more_vert",
+            "menu": [
+              { "icon": "account_circle", "text": "view profile" },
+              { "icon": "mark_chat_read", "text": "mark as unread" },
+              { "icon": "delete", "text": "delete message" },
+              { "icon": "remove_circle", "text": "block message" }
+            ]
+          }
+        },
+        {
+          "user": { "image": "images/avatar/07.webp", "status": "online" },
+          "chat": "Lorem Ipsum has been the industry's standard dummy text ever",
+          "name": "natasha amin",
+          "shortMoment": "10m",
+          "more": {
+            "icon": "more_vert",
+            "menu": [
+              { "icon": "account_circle", "text": "view profile" },
+              { "icon": "mark_chat_read", "text": "mark as unread" },
+              { "icon": "delete", "text": "delete message" },
+              { "icon": "remove_circle", "text": "block message" }
+            ]
+          }
+        },
+        {
+          "user": { "image": "images/avatar/08.webp" },
+          "chat": "Lorem Ipsum has been the industry's standard dummy text ever",
+          "name": "habib wahid",
+          "shortMoment": "2y",
+          "more": {
+            "icon": "more_vert",
+            "menu": [
+              { "icon": "account_circle", "text": "view profile" },
+              { "icon": "mark_chat_read", "text": "mark as unread" },
+              { "icon": "delete", "text": "delete message" },
+              { "icon": "remove_circle", "text": "block message" }
+            ]
+          }
+        }
+      ]
+    }
+  },
+  "notify": {
+    "icon": "notifications",
+    "title": "notification",
+    "addClass": "notify",
+    "badge": { "text": "04", "variant": "primary" },
+    "dropdown": {
+      "title": "notifications",
+      "dotsMenu": {
+        "dots": "settings",
+        "dropdown": [
+          { "icon": "drafts", "text": "mark all as read" },
+          { "icon": "markunread", "text": "mark all as unread" },
+          { "icon": "delete", "text": "delete all notification" }
+        ]
+      },
+      "button": {
+        "path": "/notification",
+        "label": "view all notification"
+      },
+      "items": [
+        {
+          "path": "#",
+          "addClass": "active",
+          "notify": {
+            "image": "images/avatar/01.webp",
+            "variant": "red",
+            "icon": "favorite"
+          },
+          "note": "<b>Mahmudul</b> added to his favorite list <b>Leather belt steve madden</b>",
+          "longMoment": "few seconds ago!",
+          "more": {
+            "icon": "more_vert",
+            "menu": [
+              { "icon": "mark_chat_read", "text": "mark as unread" },
+              { "icon": "delete", "text": "delete notification" },
+              { "icon": "remove_circle", "text": "block notification" }
+            ]
+          }
+        },
+        {
+          "path": "#",
+          "addClass": "active",
+          "notify": {
+            "image": "images/avatar/02.webp",
+            "variant": "green",
+            "icon": "forum"
+          },
+          "note": "<b>labonno</b> leave her comment to <b>Dressni Breathable female Dress</b>",
+          "longMoment": "25 minutes ago!",
+          "more": {
+            "icon": "more_vert",
+            "menu": [
+              { "icon": "mark_chat_read", "text": "mark as unread" },
+              { "icon": "delete", "text": "delete notification" },
+              { "icon": "remove_circle", "text": "block notification" }
+            ]
+          }
+        },
+        {
+          "path": "#",
+          "addClass": "active",
+          "notify": {
+            "image": "images/avatar/03.webp",
+            "variant": "blue",
+            "icon": "campaign"
+          },
+          "note": "<b>tahmina</b> announce to 50% discount <b>New Exclusive long kurti</b>",
+          "longMoment": "12 hours ago!",
+          "more": {
+            "icon": "more_vert",
+            "menu": [
+              { "icon": "mark_chat_read", "text": "mark as unread" },
+              { "icon": "delete", "text": "delete notification" },
+              { "icon": "remove_circle", "text": "block notification" }
+            ]
+          }
+        },
+        {
+          "path": "#",
+          "addClass": "active",
+          "notify": {
+            "image": "images/avatar/04.webp",
+            "variant": "purple",
+            "icon": "edit"
+          },
+          "note": "<b>jubayer</b> write to his latest blog <b>Best fashion outfit this winter</b>",
+          "longMoment": "4 days ago!",
+          "more": {
+            "icon": "more_vert",
+            "menu": [
+              { "icon": "mark_chat_read", "text": "mark as unread" },
+              { "icon": "delete", "text": "delete notification" },
+              { "icon": "remove_circle", "text": "block notification" }
+            ]
+          }
+        },
+        {
+          "path": "#",
+          "notify": {
+            "image": "images/avatar/05.webp",
+            "variant": "yellow",
+            "icon": "star"
+          },
+          "note": "<b>rebeka</b> give a review to <b>Exclusive Designed Multicolor long Kaptan</b>",
+          "longMoment": "1 weeks ago!",
+          "more": {
+            "icon": "more_vert",
+            "menu": [
+              { "icon": "mark_chat_read", "text": "mark as unread" },
+              { "icon": "delete", "text": "delete notification" },
+              { "icon": "remove_circle", "text": "block notification" }
+            ]
+          }
+        },
+        {
+          "path": "#",
+          "notify": {
+            "image": "images/logo.webp",
+            "variant": "primary",
+            "icon": "shield"
+          },
+          "note": "<b>hotash</b> privacy updated and secure <b>all this multitask platform</b>",
+          "longMoment": "2 months ago!",
+          "more": {
+            "icon": "more_vert",
+            "menu": [
+              { "icon": "mark_chat_read", "text": "mark as unread" },
+              { "icon": "delete", "text": "delete notification" },
+              { "icon": "remove_circle", "text": "block notification" }
+            ]
+          }
+        }
+      ]
+    }
+  },
+  "profile": {
+    "name": "Shahid Raza",
+    "username": "netgear",
+    "image": "images/avatar/01.webp",
+    "dropdown": [
+      { "path": "/login", "icon": "lock", "text": "logout" }
+    ]
+  }
+}

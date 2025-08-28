@@ -1,0 +1,32 @@
+{
+    "logo": {
+      "path": "/ecommerce",
+      "src": "images/logo-malpos.png",
+      "alt": "yello",
+      "name": "malpos"
+    },
+    "pattern": {
+      "src": "images/pattern.webp",
+      "alt": "line-pattern"
+    },
+    "title": "Login to Nova",
+    "input": [
+      {
+        "icon": "person",
+        "type": "UserName",
+        "name": "UserName",
+        "placeholder": "Enter your UserName",
+        "fieldSize": "w-100 h-sm"
+      },
+      {
+        "icon": "lock",
+        "type": "password",
+        "name": "Password",
+        "placeholder": "Enter your Password",
+        "fieldSize": "w-100 h-sm",
+        "passwordVisible": true
+      }
+    ],
+    "button": { "type": "submit", "text": "sign in", "fieldSize": "h-sm" }
+
+  }

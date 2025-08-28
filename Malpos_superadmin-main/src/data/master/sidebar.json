@@ -1,0 +1,151 @@
+{
+  "navs": [
+    {
+      "menu": [
+       
+        
+        {
+            "icon": "settings",
+            "text": "Administration",
+            "submenu": [
+              {
+                "href":"/user",
+          "text":"Users Management",
+          "permission": "user"
+              },
+             {
+              "href": "/customer-detail",
+              "text": "Customer Management",
+              "permission": "customer-detail"
+            } , {
+  "href": "/roles",
+  "text":"Role Management",
+  "permission": "roles"
+            }, {
+  "href": "/view-user-roles",
+  "text":"Permission Management",
+  "permission": "view-user-roles"
+            }, {
+                 "href":"/email-config",
+          "text":"Email Configuration",
+          "permission": "email-config"
+                
+              },{
+                "href":"/doc-seq",
+          "text":"Document Sequence",
+          "permission": "doc-seq"
+              },{
+              "href": "/viewWorkflows",
+              "text": "Approval Management",
+              "permission": "viewWorkflows"
+            }
+              
+            ]
+          },
+         
+        {
+"icon":"store",
+          "text": "Inventory",
+          "submenu": [
+           
+            {
+              "href": "/inventory_request",
+              "text": "Inventory Request Document",
+              "permission": "inventory_request"
+            }
+            ,           {
+              "href": "/good_issue_document_user",
+              "text": "Stock Issue Document",
+              "permission": "good-issue"
+            },
+                {
+              "href": "/Good-Issue",
+              "text": "Stock Issue Document",
+              "permission": "good-isssue"
+            }
+          
+          ]
+        },
+                {
+"icon":"email",
+          "text": "Email Configuration",
+          "submenu": [
+           {
+                 "href":"/email-templates",
+          "text":"Email Template Group",
+          "permission": "email-templates"
+                
+              },{
+                 "href":"/email-approval",
+          "text":"Email Approval Template",
+          "permission": "email-approval"
+                
+              },{
+                 "href":"/email-approval-view",
+          "text":"Email Approval Report",
+          "permission": "email-approval-view"
+                
+              },{
+                 "href":"/email-approval-pending",
+          "text":"Email Approval Decision",
+          "permission": "email-approval-pending"
+                
+              }
+            
+              
+          
+          ]
+        },
+        {
+          "icon": "route",
+          "text": "Approvals Report",
+          "submenu": [
+            {
+              "href": "/viewDocuments",
+              "text": "Approval Detail Report",
+              "permission": "viewdocuments"
+            },   {
+              "icon":"layers",
+              "href": "/pending-approvals",
+              "text": "Approval Decision Report",
+              "permission": "pending-approvals"
+            },
+            {
+              "href": "/view-approvals",
+              "text": "Approvals",
+              "permission": "view-approvals"
+            }        ]
+        },
+        {
+          "icon": "work",
+          "text": "Admin Workspace",
+          "submenu": [
+            {
+              "href": "/inventory_request_documents",
+              "text": "Inventory Request Document",
+              "permission": "Admin"
+            }   ,           {
+              "href": "/good-issue-document",
+              "text": "Stock Issue Documents",
+              "permission": "Admin"
+            } ,
+            {
+              "href": "/allDocuments",
+              "text": "Approval Documents",
+              "permission": "Admin"
+            },
+            {
+              "href": "/All-Approvals",
+              "text": "All Approved Documents",
+              "permission": "Admin"
+            }    ]
+        }
+      ]
+    }
+  ],
+  "button": {
+    "icon": "lock",
+    "path": "/login",
+    "text": "logout"
+  }
+}

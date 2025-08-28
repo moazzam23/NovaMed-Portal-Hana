@@ -1,0 +1,46 @@
+{
+  "pageTitle": "Stations",
+  "breadcrumb": [
+    { "path": "/", "text": "home" },
+    { "text": "ingredient" },
+    { "text": "list" }
+  ],
+  "dotsMenu": {
+    "dots": "more_horiz",
+    "dropdown": [
+      { "icon": "edit", "text": "edit" },
+      { "icon": "delete", "text": "delete" },
+      { "icon": "download", "text": "download" }
+    ]
+  },
+
+  "stations": {
+    "thead": ["name", "Count", "can be printed", "station remember"],
+    "tbody": [
+      {
+        "id": "cold bar",
+        "item": 1,
+        "heading": "Cold Bar",
+        "count": "9",
+        "print": "✔",
+        "remember": "✖"
+      },
+      {
+        "id": "kitchen",
+        "item": 1,
+        "heading": "Kitchen",
+        "count": "4",
+        "print": "✔",
+        "remember": "✖"
+      },
+      {
+        "id": "hotbar",
+        "item": 1,
+        "heading": "Hot Bar",
+        "count": "7",
+        "print": "✔",
+        "remember": "✖"
+      }
+    ]
+  }
+}

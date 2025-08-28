@@ -1,0 +1,304 @@
+{
+  "pageTitle": "product list",
+  "breadcrumb": [
+    { "path": "/", "text": "home" },
+    { "text": "product" },
+    { "text": "list" }
+  ],
+  "dotsMenu": {
+    "dots": "more_horiz",
+    "dropdown": [
+      { "icon": "edit", "text": "edit" },
+      { "icon": "delete", "text": "delete" },
+      { "icon": "download", "text": "download" }
+    ]
+  },
+  "float": [
+    {
+      "title": "All",
+      "digit": "854",
+      "icon": "verified_user",
+      "variant": "lg green"
+    },
+    {
+      "title": "Goods",
+      "digit": "605",
+      "icon": "verified_user",
+      "variant": "lg blue"
+    },
+    {
+      "title": "Dishes",
+      "digit": "249",
+      "icon": "verified_user",
+      "variant": "lg purple"
+    }
+  ],
+  "product": {
+    "filter": [
+      { "label": "show ", "option": ["Active", "12 row", "24 row", "36 row"] },
+      {
+        "label": "rating ",
+        "option": ["Category", "1 star", "2 star", "3 star", "4 star", "5 star"]
+      },
+      {
+        "label": "category ",
+        "option": ["Station", "mans", "womans", "kids", "accessory"]
+      },
+      {
+        "label": "brand ",
+        "option": ["Recipe", "ecstasy", "freeland", "rongdhonu"]
+      },
+      {
+        "label": "brand ",
+        "option": ["Gift", "ecstasy", "freeland", "rongdhonu"]
+      },
+      {
+        "label": "brand ",
+        "option": ["Tax", "ecstasy", "freeland", "rongdhonu"]
+      }
+    ],
+    "thead": [
+      "name",
+      "visibility",
+      "gift",
+      "type",
+      "category",
+      "station",
+      "cost",
+      "price",
+      "markup",
+      "action"
+    ],
+    "tbody": [
+      {
+        "item": "#1",
+        "id": "rice",
+        "src": "images/product/rice.jpg",
+        "alt": "rice",
+        "heading": "Rice",
+        "visibility": "✅",
+        "gift": "❌",
+        "type": "dish",
+        "station": "shisha",
+        "costPrice": "$19.00",
+        "markup": "---",
+        "price": "$19.00",
+        "category": "expresso",
+        "descrip": "Women's exclusive summer Tops and skirt set for Female Tops and skirt set",
+        "brand": "richman",
+        "stock": "30",
+        "order": "380",
+        "sales": "$38k",
+        "rating": { "icon": "star", "percent": "4.9", "number": "16" },
+        "action": { "edit": "edit", "delete": "delete", "view": "visibility" }
+      },
+      {
+        "item": "#2",
+
+        "id": "gold-dust-expresso",
+        "src": "images/product/expresso.jpg",
+        "alt": "Gold Dust Expresso",
+        "heading": " Expresso",
+        "visibility": "✅",
+        "gift": "❌",
+        "type": "dish",
+        "station": "shisha",
+        "costPrice": "$19.00",
+        "markup": "---",
+        "price": "$19.00",
+        "category": "expresso",
+        "descrip": "Steve madden men's dress casual cvery cay ceather belt",
+        "brand": "lubana",
+        "stock": "23",
+        "order": "189",
+        "sales": "$9k",
+        "rating": { "icon": "star", "percent": "4.5", "number": "38" },
+        "action": { "edit": "edit", "delete": "delete", "view": "visibility" }
+      },
+      {
+        "item": "#3",
+
+        "id": "cup-cake",
+        "src": "images/product/cup-cake.jpg",
+        "alt": "Cup Cake",
+        "heading": "Cup Cake",
+        "visibility": "✅",
+        "gift": "❌",
+        "type": "dish",
+        "station": "shisha",
+        "costPrice": "$19.00",
+        "markup": "---",
+        "price": "$19.00",
+        "category": "expresso",
+        "descrip": "Nemo enim ipsam voluptatem quia voluptas sit aspernatur",
+        "brand": "ecstasy",
+        "stock": "30",
+        "order": "380",
+        "sales": "$38k",
+        "rating": { "icon": "star", "percent": "4.1", "number": "69" },
+        "action": { "edit": "edit", "delete": "delete", "view": "visibility" }
+      },
+      {
+        "item": "#4",
+
+        "id": "sandwich",
+        "src": "images/product/sandwich.jpg",
+        "alt": "Sandwich",
+        "heading": "Sandwich",
+        "visibility": "✅",
+        "gift": "❌",
+        "type": "dish",
+        "station": "shisha",
+        "costPrice": "$19.00",
+        "markup": "---",
+        "price": "$19.00",
+        "category": "expresso",
+        "descrip": "Nemo enim ipsam voluptatem quia voluptas sit aspernatur",
+        "brand": "ecstasy",
+        "stock": "30",
+        "order": "380",
+        "sales": "$38k",
+        "rating": { "icon": "star", "percent": "4.4", "number": "47" },
+        "action": { "edit": "edit", "delete": "delete", "view": "visibility" }
+      },
+      {
+        "item": "#5",
+
+        "id": "sandwich-mix",
+        "src": "images/product/mix-sandwich.jpg",
+        "alt": "Sandwich Mix",
+        "heading": "Sandwich Mix",
+        "visibility": "✅",
+        "gift": "❌",
+        "type": "dish",
+        "station": "shisha",
+        "costPrice": "$19.00",
+        "markup": "---",
+        "price": "$19.00",
+        "category": "expresso",
+        "descrip": "Nemo enim ipsam voluptatem quia voluptas sit aspernatur",
+        "brand": "ecstasy",
+        "stock": "30",
+        "order": "380",
+        "sales": "$38k",
+        "rating": { "icon": "star", "percent": "5", "number": "47" },
+        "action": { "edit": "edit", "delete": "delete", "view": "visibility" }
+      },
+      {
+        "item": "#6",
+
+        "id": "drink",
+        "src": "images/product/drink.jpg",
+        "alt": "drink",
+        "heading": "drink",
+        "visibility": "✅",
+        "gift": "❌",
+        "type": "dish",
+        "station": "shisha",
+        "costPrice": "$19.00",
+        "markup": "---",
+        "price": "$19.00",
+        "category": "expresso",
+        "descrip": "Nemo enim ipsam voluptatem quia voluptas sit aspernatur",
+        "brand": "ecstasy",
+        "stock": "30",
+        "order": "380",
+        "sales": "$38k",
+        "rating": { "icon": "star", "percent": "3.7", "number": "47" },
+        "action": { "edit": "edit", "delete": "delete", "view": "visibility" }
+      },
+      {
+        "item": "#7",
+
+        "id": "fish",
+        "src": "images/product/fish.jpg",
+        "alt": "fish",
+        "heading": "Fish",
+        "visibility": "✅",
+        "gift": "❌",
+        "type": "dish",
+        "station": "shisha",
+        "costPrice": "$19.00",
+        "markup": "---",
+        "price": "$19.00",
+        "category": "expresso",
+        "descrip": "Nemo enim ipsam voluptatem quia voluptas sit aspernatur",
+        "brand": "ecstasy",
+        "stock": "30",
+        "order": "380",
+        "sales": "$38k",
+        "rating": { "icon": "star", "percent": "4.5", "number": "47" },
+        "action": { "edit": "edit", "delete": "delete", "view": "visibility" }
+      },
+      {
+        "item": "#8",
+
+        "id": "pizza",
+        "src": "images/product/pizza.jpg",
+        "alt": "Pizza",
+        "heading": "Pizza",
+        "visibility": "✅",
+        "gift": "❌",
+        "type": "dish",
+        "station": "shisha",
+        "costPrice": "$19.00",
+        "markup": "---",
+        "price": "$19.00",
+        "category": "expresso",
+        "descrip": "Nemo enim ipsam voluptatem quia voluptas sit aspernatur",
+        "brand": "ecstasy",
+        "stock": "30",
+        "order": "380",
+        "sales": "$38k",
+        "rating": { "icon": "star", "percent": "4.3", "number": "47" },
+        "action": { "edit": "edit", "delete": "delete", "view": "visibility" }
+      },
+      {
+        "item": "#9",
+
+        "id": "bread",
+        "src": "images/product/bread.jpg",
+        "alt": "bread",
+        "heading": "Garlic Bread",
+        "visibility": "✅",
+        "gift": "❌",
+        "type": "dish",
+        "station": "shisha",
+        "costPrice": "$19.00",
+        "markup": "---",
+        "price": "$19.00",
+        "category": "expresso",
+        "descrip": "Nemo enim ipsam voluptatem quia voluptas sit aspernatur",
+        "brand": "ecstasy",
+        "stock": "30",
+        "order": "380",
+        "sales": "$38k",
+        "rating": { "icon": "star", "percent": "4.8", "number": "47" },
+        "action": { "edit": "edit", "delete": "delete", "view": "visibility" }
+      },
+      {
+        "item": "#10",
+
+        "id": "blue-juice",
+        "src": "images/product/blue-drink.jpg",
+        "alt": "Blue Juice",
+        "heading": "Blue Juice",
+        "visibility": "✅",
+        "gift": "❌",
+        "type": "dish",
+        "station": "shisha",
+        "costPrice": "$19.00",
+        "markup": "---",
+        "price": "$19.00",
+        "category": "expresso",
+        "descrip": "Nemo enim ipsam voluptatem quia voluptas sit aspernatur",
+        "brand": "ecstasy",
+        "stock": "30",
+        "order": "380",
+        "sales": "$38k",
+        "rating": { "icon": "star", "percent": "3.9", "number": "47" },
+        "action": { "edit": "edit", "delete": "delete", "view": "visibility" }
+      }
+    ]
+  }
+}

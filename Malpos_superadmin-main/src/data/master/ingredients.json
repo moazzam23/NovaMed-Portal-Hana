@@ -1,0 +1,106 @@
+{
+  "pageTitle": "Ingredient",
+  "breadcrumb": [
+    { "path": "/", "text": "home" },
+    { "text": "ingredient" },
+    { "text": "list" }
+  ],
+  "dotsMenu": {
+    "dots": "more_horiz",
+    "dropdown": [
+      { "icon": "edit", "text": "edit" },
+      { "icon": "delete", "text": "delete" },
+      { "icon": "download", "text": "download" }
+    ]
+  },
+
+  "ingredients": {
+    "filter": [
+      {
+        "label": "Category ",
+        "option": ["Category", "Materials Sandwich", "R TIS", " T TIS"]
+      },
+      {
+        "label": "Accounting Category ",
+        "option": ["Accounting Category ", "Juices", "Mul", "Without Category"]
+      },
+      {
+        "label": "Filter",
+        "option": ["Filter ", "In use", "Not in use"]
+      },
+      {
+        "label": "Stock Counted ",
+        "option": ["Stock Counted ", "Counted", "UnCounted"]
+      },
+      {
+        "label": "Bulk Actions ",
+        "option": ["Bulk Actions  ", "Edit", "Delete"]
+      }
+    ],
+    "thead": [
+      "name",
+      "unit",
+      "write off method",
+      "base unit weight, kg",
+      "cost price",
+      "action"
+    ],
+    "tbody": [
+      {
+        "id": "chicken-shawarma",
+        "item": 1,
+        "heading": "Chicken Shawarma",
+        "unit": "kg",
+        "costPrice": 8.55,
+        "method": "Write of ready item",
+        "weight": "1 kg",
+        "volume": "1 pc",
+        "action": { "edit": "edit", "delete": "delete", "view": "visibility" }
+      },
+      {
+        "id": "yaki-soba-sauce-sub",
+        "item": 12,
+        "heading": "Yaki Suba Sauce Sub",
+        "unit": "kg",
+        "costPrice": 9,
+        "method": "Write of ready item",
+        "weight": "1 kg",
+        "volume": "5 pc",
+
+        "action": { "edit": "edit", "delete": "delete", "view": "visibility" }
+      },
+      {
+        "id": "beef-curry",
+        "item": 3,
+        "heading": "Beef Curry",
+        "unit": "kg",
+        "costPrice": 8.55,
+        "method": "Write of ready item",
+        "weight": "1 kg",
+        "volume": "2 kg",
+        "action": { "edit": "edit", "delete": "delete", "view": "visibility" }
+      },
+
+      {
+        "id": "chciken",
+        "item": 5,
+        "heading": "Chicken Curry",
+        "unit": "kg",
+        "costPrice": 8.55,
+        "method": "Write of ready item",
+        "weight": "1 kg",
+        "action": { "edit": "edit", "delete": "delete", "view": "visibility" }
+      },
+      {
+        "id": "beef",
+        "item": 6,
+        "heading": "Beef",
+        "unit": "kg",
+        "costPrice": 8.55,
+        "method": "Write of ready item",
+        "weight": "1 kg",
+        "action": { "edit": "edit", "delete": "delete", "view": "visibility" }
+      }
+    ]
+  }
+}

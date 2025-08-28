@@ -1,0 +1,370 @@
+/* /////////////////netgear/////////////////////// */
+.cardAnyls {
+  display: flex;
+  justify-content: space-between;
+}
+.cardAnyls-left {
+  order: 1;
+  color: white;
+}
+.cardAnyls-right {
+  order: 2;
+  color: white;
+}
+
+/* product list page css */
+.mc-header-search-pl {
+  width: 215px;
+  height: 48px;
+  border: 1px solid #f8f8f8;
+}
+.mc-header-search-pl .search-inout {
+  padding: 12px 0px;
+}
+.add-product-btn-pl {
+  padding: 18px 20px;
+  border-radius: 8px;
+  background-color: #246ff1;
+  font-size: 14px;
+  color: #ffff;
+  float: right;
+}
+.add-product-btn-pl:hover {
+  color: #ffff;
+  background-color: #071739;
+}
+.mc-header-search-box {
+  width: 100%;
+}
+.mc-header-search-box form {
+  width: 100%;
+}
+@media only screen and (max-width: 768px) {
+  .mc-header-search-pl {
+    width: 100%;
+  }
+  .mc-label-field-select.h-md {
+    height: 50px;
+  }
+  .add-product-btn-pl {
+    height: 50px;
+    width: 100%;
+    border-radius: 8px;
+    background-color: #1f386e;
+    color: #ffff;
+    border: none;
+    float: none;
+  }
+}
+
+.nav-tabs {
+  padding: 0px 0px;
+}
+.nav-tabs .nav-item button {
+  padding: 19px 10px;
+  border: 1px solid silver;
+  margin-right: 5px;
+  
+  background-color: none;
+  font-size: 14px;
+  border: none;
+}
+.nav-tabs .nav-item {
+  border-radius: none;
+}
+.nav-tabs .nav-link {
+  color: white;
+}
+.nav-tabs .nav-link.active {
+  border-bottom: 2px solid white;
+  color: white;
+  background-color: #18596a;
+}
+
+.nav-tabs {
+  padding: 0px 0px;
+}
+.nav-tabs .nav-item button {
+  padding: 19px 10px;
+  border: 1px solid silver;
+  margin-right: 5px;
+  background-color: none;
+  font-size: 14px;
+  border: none;
+}
+.nav-tabs .nav-item {
+  border-radius: none;
+}
+.nav-tabs .nav-link {
+  color: #071739;
+}
+.nav-tabs .nav-link.active {
+  border-bottom: 2px solid #246ff1;
+  color: #246ff1;
+}
+
+.nav-tabs {
+  padding: 0px 0px;
+}
+.nav-tabs .nav-item button {
+  padding: 19px 10px;
+  border: 1px solid silver;
+  margin-right: 5px;
+  background-color: none;
+  font-size: 14px;
+  border: none;
+}
+.nav-tabs .nav-item {
+  border-radius: none;
+}
+.nav-tabs .nav-link {
+  color: #071739;
+}
+.nav-tabs .nav-link.active {
+  /* border-bottom: 2px solid #246ff1;
+  color: #246ff1; */
+    border-bottom: 2px solid white;
+  color: white;
+  background-color: #18596a;
+}
+.additiona-infoTab {
+  padding-top: 20px;
+}
+
+/* edit product */
+.productedit-edit {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.addproduct-btn {
+  background-color: #f1f5f9;
+  font-size: 14px;
+  padding: 10px 10px;
+  margin: 0px 5px 0px 0px;
+  border-radius: 10px;
+}
+.addproduct-btn img {
+  width: 20px;
+  height: 20px;
+  margin-right: 0px;
+  opacity: 0.8;
+  /* background-color: #ffff; */
+  /* padding: 5px; */
+}
+.addproduct-removeBtn {
+  background-color: #3077e5;
+  color: #ffff;
+}
+.addproduct-btn:hover {
+  background-color: #c1c1c1;
+  color: #ffff;
+}
+@media only screen and (max-width: 768px) {
+  .addproduct-btn {
+    font-size: 13px;
+    padding: 17px 16px;
+    border-radius: 10px;
+  }
+}
+
+/* product list */
+.add-product-btn-pl {
+  font-size: 11.5px;
+}
+
+.seacrh-pl::placeholder {
+  font-size: 11.5px;
+}
+.col-2-filters {
+  padding: 0px 2px;
+}
+
+.optionsMY {
+  /* .optionsMY{
+   padding: 20px 40px;
+   height: 50px;
+   line-height: 50px;
+} */
+}
+.pl-img {
+  width: 100%;
+  height: 150px;
+}
+.pl-img img {
+  width: 100%;
+}
+
+.mc-label-field-select option {
+  padding: 12px 30px;
+  height: 50px;
+  line-height: 2em !important;
+  padding: 10px !important;
+}
+.pl-img img {
+  width: 100%;
+  height: 100%;
+  border-radius: 5px;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 768px) {
+  .col-2-filters {
+    padding: 0px 10px;
+  }
+}
+.field-select {
+  font-size: 10px;
+}
+.filterAndSeach-pl {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+/* anaylitics page css */
+.mc-card-tabs .nav-tabs .nav-item button {
+  padding: 14px 10px;
+  background-color: none;
+  border: 1px solid silver;
+  border-radius: 4px;
+  margin-right: 5px;
+  background-color: none;
+}
+/* adition info page tabs */
+.basicInfo-checkBoxes {
+  margin-top: 23px;
+  padding: 5px 5px;
+}
+.cicrle-spans span {
+  width: 80px;
+  height: 30px;
+  padding: 5px 15px;
+  border-radius: 50%;
+  transition: background-color 0.7s, border-color 0.7s;
+  transform: scale(1.1, 1.1);
+  margin-right: 5px;
+  cursor: pointer;
+}
+.cicrle-spans .red {
+  background-color: rgb(244, 67, 54);
+}
+.cicrle-spans .red:hover {
+  background-color: white;
+  border: 3px solid rgb(244, 67, 54);
+}
+.cicrle-spans .pink {
+  background-color: rgb(233, 30, 99);
+}
+.cicrle-spans .pink:hover {
+  background-color: white;
+  border: 3px solid rgb(233, 30, 99);
+}
+.cicrle-spans .purple {
+  background-color: rgb(156, 39, 176);
+}
+.cicrle-spans .purple:hover {
+  background-color: white;
+  border: 3px solid rgb(156, 39, 176);
+}
+.cicrle-spans .light-b {
+  background-color: rgb(33, 150, 243);
+}
+.cicrle-spans .light-b:hover {
+  background-color: white;
+  border: 3px solid rgb(33, 150, 243);
+}
+.cicrle-spans .dark-b {
+  background-color: rgb(3, 169, 244);
+}
+.cicrle-spans .dark-b:hover {
+  background-color: white;
+  border: 3px solid rgb(3, 169, 244);
+}
+.cicrle-spans .blue {
+  background-color: rgb(0, 188, 212);
+}
+.cicrle-spans .blue:hover {
+  background-color: white;
+  border: 3px solid rgb(0, 188, 212);
+}
+.cicrle-spans .see-green {
+  background-color: rgb(0, 150, 136);
+}
+.cicrle-spans .see-green:hover {
+  background-color: white;
+  border: 3px solid rgb(0, 150, 136);
+}
+.cicrle-spans .green {
+  background-color: rgb(76, 175, 80);
+}
+.cicrle-spans .green:hover {
+  background-color: white;
+  border: 3px solid rgb(76, 175, 80);
+}
+
+.cicrle-spans span:hover {
+}
+/* recipe */
+.tabContent .thead-recipe tr {
+  font-size: 13px;
+  font-weight: 100;
+  color: #5e5d72;
+}
+.tabContent .thead-recipe th {
+  padding: 1rem 0.5rem;
+}
+
+.tabContent .thead-modifier {
+  font-size: 13px;
+  font-weight: 100;
+  color: #5e5d72;
+}
+.tabContent .thead-modifier th {
+  padding: 1rem 0.5rem;
+}
+.tabContent tbody {
+  color: #5e5d72;
+}
+
+.tabContent tbody tr {
+  font-size: 13px;
+}
+.tabContent tbody tr td {
+  padding: 1rem 0.5rem;
+}
+.tabContent .text-end-td {
+  text-align: end;
+}
+
+/* preparation page */
+.add-product-btn-pre {
+  height: 32px;
+  width: 100%;
+  padding: 0px 00px;
+  /* margin-right: 2px; */
+  margin-left: 70px;
+  background-color: #3a81e4;
+  color: #ffff;
+  overflow: hidden;
+  font-size: 11.5px;
+  text-align: center;
+  border-radius: 4px;
+}
+
+/* ingredients */
+.ingredients-left-btns {
+  margin-left: -0px;
+}
+.ingre-btn-w {
+  padding: 0px 1px;
+}
+
+.ingre-btn-w .add-product-btn-pre {
+  width: 100%;
+}
+
+/* preparartion tabs */
+.recipePre-tab {
+  text-align: end;
+}

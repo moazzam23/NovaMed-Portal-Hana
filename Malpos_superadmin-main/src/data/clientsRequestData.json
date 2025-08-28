@@ -1,0 +1,53 @@
+{"deals": {
+    "title": "deals performance",
+    "dotsMenu": {
+        "dots": "more_horiz",
+        "dropdown": [
+            { "icon": "history", "text": "last day" },
+            { "icon": "history", "text": "last week" },
+            { "icon": "history", "text": "last month" },
+            { "icon": "history", "text": "last year" }
+        ]
+    },
+    "table":{
+        "filter":[
+            { "label": "show by", "option": ["12 row", "24 row", "36 row"] },
+            { "label": "status by", "option": ["won leads", "new leads", "open leads", "lost leads"] },
+            { "label": "brand by", "type": "date" },
+            { "label": "search by", "type": "search", "placeholder": "id / name / email" }
+        ],
+        "thead": ["Client", "Email","Request Type", "Issue date","Status", "Action"],
+        "tbody": [
+            {
+                "src": "images/avatar/01.webp",
+                "alt": "client",
+                "name": "miron mahmud", 
+                "email": "miron@gmail.com",
+                "request": {"text": "Demo", "variant": "blue" }, 
+                "date": "15/06/2022 14:02",
+                "status": { "text": "pending", "variant": "red" },
+                "action": { "delete": "delete", "download": "download", "view": "visibility", "edit": "edit"   }
+            },
+            {
+                "src": "images/avatar/02.webp",
+                "alt": "client",
+                "name": "tahmina bonny", 
+                "email": "tahmina@gmail.com", 
+                "request": {"text": "Support", "variant": "purple" }, 
+                "date": "15/06/2022 14:02",
+                "status": { "text": "assigned", "variant": "yellow" },
+                "action": { "delete": "delete", "download": "download", "view": "visibility", "edit": "edit"   }
+            },
+            {
+                "src": "images/avatar/02.webp",
+                "alt": "client",
+                "name": "tahmina bonny", 
+                "email": "tahmina@gmail.com", 
+                "request": {"text": "Support", "variant": "purple" }, 
+                "date": "15/06/2022 14:02",
+                "status": { "text": "completed", "variant": "green" },
+                "action": { "delete": "delete", "download": "download", "view": "visibility", "edit": "edit"   }
+            }
+        ]
+    }
+}}

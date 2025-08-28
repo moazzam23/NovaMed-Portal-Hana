@@ -1,0 +1,59 @@
+{
+  "pageTitle": "Menu Re-arrangement",
+  "breadcrumb": [
+    { "path": "/", "text": "home" },
+    { "text": "ingredient" },
+    { "text": "list" }
+  ],
+  "dotsMenu": {
+    "dots": "more_horiz",
+    "dropdown": [
+      { "icon": "edit", "text": "edit" },
+      { "icon": "delete", "text": "delete" },
+      { "icon": "download", "text": "download" }
+    ]
+  },
+
+  "arrangement": {
+    "main": [
+      { "id": "ice-coffee", "name": "Ice Coffe" },
+      { "id": "hot-chocolate", "name": "Hot Chocolate" },
+      { "id": "special-coffee", "name": "Special Coffee" },
+      { "id": "sandwich", "name": "Sandwich" }
+    ],
+    "submenu": [
+      {
+        "id": "ice-coffee",
+        "items": [
+          { "id": "ice", "name": "Ice Coffee" },
+          { "id": "cold", "name": "Cold Coffe" },
+          { "id": "drink", "name": "Cold Drink" }
+        ]
+      },
+      {
+        "id": "hot-chocolate",
+        "items": [
+          { "id": "chocolate", "name": "Hot Chocolate" },
+          { "id": "coffee", "name": "Hot Coffe" },
+          { "id": "tea", "name": "Hot Tea" }
+        ]
+      },
+      {
+        "id": "special-coffee",
+        "items": [
+          { "id": "ice", "name": "Special Coffee" },
+          { "id": "scoffee", "name": " Coffe" },
+          { "id": "sdrink", "name": "Special Drink" }
+        ]
+      },
+      {
+        "id": "sandwich",
+        "items": [
+          { "id": "nsandwich", "name": "Sandwich" },
+          { "id": "mixsandwich", "name": "Mix Sandwich" },
+          { "id": "ssandwich", "name": "Special Sandwich" }
+        ]
+      }
+    ]
+  }
+}

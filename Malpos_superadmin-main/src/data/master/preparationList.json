@@ -1,0 +1,120 @@
+{
+  "pageTitle": "Preparation list",
+  "breadcrumb": [
+    { "path": "/", "text": "home" },
+    { "text": "preparation" },
+    { "text": "list" }
+  ],
+  "dotsMenu": {
+    "dots": "more_horiz",
+    "dropdown": [
+      { "icon": "edit", "text": "edit" },
+      { "icon": "delete", "text": "delete" },
+      { "icon": "download", "text": "download" }
+    ]
+  },
+  "float": [
+    {
+      "title": "total products",
+      "digit": "547",
+      "icon": "shopping_bag",
+      "variant": "lg blue"
+    },
+    {
+      "title": "total categories",
+      "digit": "605",
+      "icon": "widgets",
+      "variant": "lg green"
+    },
+    {
+      "title": "total barnds",
+      "digit": "249",
+      "icon": "verified_user",
+      "variant": "lg purple"
+    }
+  ],
+  "preparation": {
+    "filter": [
+      { "label": "Filter ", "option": ["Filter", "In use", "Not in use"] },
+      {
+        "label": "Recipe ",
+        "option": ["Recipe ", "Have Recipe", "Not have recipe"]
+      }
+    ],
+    "thead": [
+      "name",
+      "unit",
+      "write off method",
+      "base unit weight,kg",
+      "cost price",
+      "action"
+    ],
+    "tbody": [
+      {
+        "item": 1,
+        "id": "chciken-shawarma",
+        "heading": "Chicken Shawarma",
+        "unit": "kg",
+        "costPrice": 8.55,
+        "method": "Write of ready item",
+        "weight": "1 kg",
+        "action": { "edit": "edit", "delete": "delete", "view": "visibility" }
+      },
+      {
+        "item": 2,
+
+        "id": "yaki-soba-sauce-sub",
+        "heading": "Yaki Suba Sauce Sub",
+        "unit": "kg",
+        "costPrice": 9,
+        "method": "Write of ready item",
+        "weight": "1 kg",
+        "action": { "edit": "edit", "delete": "delete", "view": "visibility" }
+      },
+      {
+        "item": 3,
+
+        "id": "beef",
+        "heading": "Beef",
+        "unit": "kg",
+        "costPrice": 8.55,
+        "method": "Write of ready item",
+        "weight": "1 kg",
+        "action": { "edit": "edit", "delete": "delete", "view": "visibility" }
+      },
+      {
+        "item": 4,
+
+        "id": "yaki-soba-sauce",
+        "heading": "Yaki Suba Sauce",
+        "unit": "kg",
+        "costPrice": 9,
+        "method": "Write of ready item",
+        "weight": "1 kg",
+        "action": { "edit": "edit", "delete": "delete", "view": "visibility" }
+      },
+      {
+        "item": 5,
+
+        "id": "chciken",
+        "heading": "Chicken",
+        "unit": "kg",
+        "costPrice": 8.55,
+        "method": "Write of ready item",
+        "weight": "1 kg",
+        "action": { "edit": "edit", "delete": "delete", "view": "visibility" }
+      },
+      {
+        "item": 6,
+
+        "id": "beef-curry",
+        "heading": "Beef Curry",
+        "unit": "kg",
+        "costPrice": 8.55,
+        "method": "Write of ready item",
+        "weight": "1 kg",
+        "action": { "edit": "edit", "delete": "delete", "view": "visibility" }
+      }
+    ]
+  }
+}
