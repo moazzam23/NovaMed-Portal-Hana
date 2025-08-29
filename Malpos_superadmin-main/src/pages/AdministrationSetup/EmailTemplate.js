@@ -99,9 +99,7 @@ export default function EmailTemplate() {
                     </thead>
                     <tbody className="mc-table-body">
                       {currentUsers.map((user,index) => (
-                        <tr className="slide-in-right" style={{
-                          animationDelay: `${index * 0.1}s`,
-                        }}  key={user.ID}>
+                        <tr  key={user.ID}>
                           <td>{user.ID}</td>
                           <td>{user.CUSTOMER_NAME}</td>
                           {/* <td>{user.EMAIL_SUBJECT}</td>
